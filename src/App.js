@@ -5,7 +5,7 @@ import './App.css';
 
 function App() {
   return (
-       <HashRouter>
+       <HashRouter basename='/'>
         <div>
          <ul>
           <li><Link to="/">Home</Link></li>

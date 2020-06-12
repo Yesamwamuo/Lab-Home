@@ -1,26 +1,25 @@
 {
   "files": {
-    "main.css": "/Lab-Home/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/Lab-Home/static/js/main.f315337b.chunk.js",
-    "main.js.map": "/Lab-Home/static/js/main.f315337b.chunk.js.map",
+    "main.css": "/Lab-Home/static/css/main.94721b2f.chunk.css",
+    "main.js": "/Lab-Home/static/js/main.879856ad.chunk.js",
+    "main.js.map": "/Lab-Home/static/js/main.879856ad.chunk.js.map",
     "runtime-main.js": "/Lab-Home/static/js/runtime-main.25f6f3e4.js",
     "runtime-main.js.map": "/Lab-Home/static/js/runtime-main.25f6f3e4.js.map",
-    "static/css/2.a2026422.chunk.css": "/Lab-Home/static/css/2.a2026422.chunk.css",
-    "static/js/2.e589a468.chunk.js": "/Lab-Home/static/js/2.e589a468.chunk.js",
-    "static/js/2.e589a468.chunk.js.map": "/Lab-Home/static/js/2.e589a468.chunk.js.map",
+    "static/css/2.764ccc25.chunk.css": "/Lab-Home/static/css/2.764ccc25.chunk.css",
+    "static/js/2.61550996.chunk.js": "/Lab-Home/static/js/2.61550996.chunk.js",
+    "static/js/2.61550996.chunk.js.map": "/Lab-Home/static/js/2.61550996.chunk.js.map",
     "index.html": "/Lab-Home/index.html",
-    "precache-manifest.5ffee8cc8c9eb683147a138518043886.js": "/Lab-Home/precache-manifest.5ffee8cc8c9eb683147a138518043886.js",
+    "precache-manifest.9ab41ac94931fb8a572f6ca9bdc965f4.js": "/Lab-Home/precache-manifest.9ab41ac94931fb8a572f6ca9bdc965f4.js",
     "service-worker.js": "/Lab-Home/service-worker.js",
-    "static/css/2.a2026422.chunk.css.map": "/Lab-Home/static/css/2.a2026422.chunk.css.map",
-    "static/css/main.5ecd60fb.chunk.css.map": "/Lab-Home/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.e589a468.chunk.js.LICENSE.txt": "/Lab-Home/static/js/2.e589a468.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/Lab-Home/static/media/logo.5d5d9eef.svg"
+    "static/css/2.764ccc25.chunk.css.map": "/Lab-Home/static/css/2.764ccc25.chunk.css.map",
+    "static/css/main.94721b2f.chunk.css.map": "/Lab-Home/static/css/main.94721b2f.chunk.css.map",
+    "static/js/2.61550996.chunk.js.LICENSE.txt": "/Lab-Home/static/js/2.61550996.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.25f6f3e4.js",
-    "static/css/2.a2026422.chunk.css",
-    "static/js/2.e589a468.chunk.js",
-    "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.f315337b.chunk.js"
+    "static/css/2.764ccc25.chunk.css",
+    "static/js/2.61550996.chunk.js",
+    "static/css/main.94721b2f.chunk.css",
+    "static/js/main.879856ad.chunk.js"
   ]
 }

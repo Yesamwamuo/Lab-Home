@@ -1,0 +1,96 @@
+@import "colors";
+@import './_base';
+@import './_homepage';
+@import '~antd/dist/antd.less';
+
+.app {
+  min-height: 100vh;
+  //display: flex;
+  //flex-direction: column;
+  background: #ffffff;
+
+  .ant-layout-header {
+    background: #ffffff;
+    position: absolute;
+    top: 0;
+    border-bottom: 1px solid lighten(#000000, 90%);
+    height: 80px;
+    left: 0;
+    width: 100%;
+
+    .ant-menu-horizontal {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      float: right;
+      background: #ffffff;
+    }
+
+    .nav-text {
+      margin: 0 10px;
+      color: @color-primary;
+      font-size: 20px;
+      font-weight: 500;
+    }
+
+    .nav-text:hover {
+      color: darken(@color-primary, 20%);
+    }
+
+    .ant-menu-item {
+    }
+
+    .logo {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      width: 160px;
+      height: 100%;
+      float: left;
+      color: #ffffff;
+      font-size: 18px;
+       cursor: pointer;
+
+      h2 {
+        margin: 0 10px;
+        color: @color-primary;
+        font-size: 30px;
+      }
+
+    }
+
+
+
+
+
+
+  }
+
+
+  > .ant-layout-content {
+    margin: 0 auto;
+    width: 70%;
+
+
+    .ant-layout {
+      height: 100%;
+      overflow-y: auto;
+    }
+  }
+
+  .ant-layout-footer {
+    background: @color-primary;
+    height: 90px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+  }
+
+}
+
+
+
+

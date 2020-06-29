@@ -1,7 +1,7 @@
 import React from "react";
 import {Typography} from 'antd';
 
-const {Paragraph, Title, Text} = Typography;
+const {Paragraph, Title} = Typography;
 
 export class HomePage extends React.Component {
     render() {

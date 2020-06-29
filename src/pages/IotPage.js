@@ -1,6 +1,5 @@
 import React from "react";
 import Title from "antd/lib/typography/Title";
-import Privacy from "../papers/Privacy2020.pdf";
 
 export class IotPage extends React.Component {
     render() {

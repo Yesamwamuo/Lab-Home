@@ -1,9 +1,7 @@
 import React from "react";
-import {Card, Avatar, Typography} from 'antd';
-import {Link} from "react-router-dom";
+import {Typography} from 'antd';
 
-const {Paragraph, Title, Text} = Typography;
-const {Meta} = Card
+const {Title, Text} = Typography;
 
 export class PeoplePage extends React.Component {
     render() {
@@ -12,10 +10,12 @@ export class PeoplePage extends React.Component {
             <Title level={3} className='subtitle'>Faculty</Title>
             <ul className='people-list'>
                 <li className='people-item' key={1}>
-                    <Title className='app-text'><a target="_blank" href="https://www.ytian.info/">Prof. Yuan Tian</a></Title>
+                    <Title className='app-text'><a target="_blank" href="https://www.ytian.info/">Prof. Yuan
+                        Tian</a></Title>
                     <Text className='sub-text'>University of Virginia</Text></li>
                 <li className='people-item' key={1}>
-                    <Title className='app-text'><a target="_blank" href="http://cs.uccs.edu/~yzhuang/">Prof. Yanyan Zhuang</a></Title>
+                    <Title className='app-text'><a target="_blank" href="http://cs.uccs.edu/~yzhuang/">Prof. Yanyan
+                        Zhuang</a></Title>
                     <Text className='sub-text'>University of Colorado, Colorado Springs</Text>
                 </li>
                 <li className='people-item' key={1}>
@@ -41,7 +41,8 @@ export class PeoplePage extends React.Component {
 
             <ul className='people-list'>
                 <li className='people-item' key={1}>
-                    <Title className='app-text'><a target="_blank" href="https://badhomb.re/">Dr. Santiago Torres-Arias</a></Title>
+                    <Title className='app-text'><a target="_blank" href="https://badhomb.re/">Dr. Santiago
+                        Torres-Arias</a></Title>
                     <Text className='sub-text'>Purdue University</Text></li>
             </ul>
         </div>;

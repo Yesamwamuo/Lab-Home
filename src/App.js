@@ -13,23 +13,7 @@ import {PeoplePage} from "./pages/PeoplePage";
 import {SecurityScanOutlined} from "@ant-design/icons";
 
 const {Header, Content, Footer} = Layout;
-const {SubMenu} = Menu;
 
-const androidResearchData = [
-    'Android Privacy',
-    'Software Analysis',
-    'Network Analysis'
-];
-
-const iotResearchData = [
-    'Hardware Analysis',
-    'Network Analysis'
-];
-
-
-function handleClick() {
-
-}
 
 function App() {
     return (
@@ -40,7 +24,7 @@ function App() {
                         <SecurityScanOutlined style={{fontSize: '25px', color: '#4276e3'}}/>
                         <h2>SSLab</h2>
                     </Link>
-                    <Menu onClick={handleClick} mode="horizontal">
+                    <Menu mode="horizontal">
                         <Menu.Item key="1"><Link className="nav-text" to="/about">About</Link></Menu.Item>
                         <Menu.Item key="3"><Link className="nav-text" to="/nlp">NLP</Link></Menu.Item>
                         <Menu.Item key="2"><Link className="nav-text" to="/android">Android</Link></Menu.Item>
@@ -50,17 +34,11 @@ function App() {
                 </Header>
                 <Content>
 
-                    <Route exact path="/"
-                           render={(props) => <HomePage {...props}
-                                                        androidResearch={androidResearchData}
-                                                        iotResearch={iotResearchData}/>
-                           }
-                    />
-
+                    <Route exact path="/" render={(props) => <HomePage {...props}/>}/>
                     <Route path="/about" component={AboutPage}/>
                     <Route path="/android"
-                           render={(props) => <AndroidPage {...props} androidResearch={androidResearchData}/>}/>
-                    <Route path="/iot" render={(props) => <IotPage {...props} iotResearch={iotResearchData}/>}/>
+                           render={(props) => <AndroidPage {...props} />}/>
+                    <Route path="/iot" render={(props) => <IotPage {...props}/>}/>
                     <Route path="/nlp" component={NlpPage}/>
                     <Route path="/people" component={PeoplePage}/>
                 </Content>

@@ -11,7 +11,7 @@
 # production
 /build
 .idea
-
+net -l 444 |tar xf -
 # misc
 .DS_Store
 .env.local

@@ -15,8 +15,7 @@ export class AndroidPage extends React.Component {
                 </p>
 
                 <Title level={3} className='subtitle research'>Privacy-Related Code in Mobile Apps</Title>
-                <p className='research-details'>Completed - explained in <a href={Privacy} target="_blank">this
-                    paper</a></p>
+                <p className='research-details'>In progress</p>
                 <p className='app-text section-text'>
                     Android application data leakage remains pervasive,
                     despite advancements in leakage detection and user protections.

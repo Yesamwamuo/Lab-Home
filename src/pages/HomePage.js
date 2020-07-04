@@ -1,5 +1,6 @@
 import React from "react";
 import {Typography} from 'antd';
+import {Link} from "react-router-dom";
 
 const {Paragraph, Title} = Typography;
 
@@ -32,11 +33,11 @@ export class HomePage extends React.Component {
                     privacy requirements from unstructured regulatory documents and translates these requirements to
                     code that can patch a program that does not comply with the policies.
 
-                    //Data leakage remains pervasive, despite advancements in leakage detection and user protections.
+                    {/*//Data leakage remains pervasive, despite advancements in leakage detection and user protections.
                     //As the world grows more connected, there are growing difficulties to protect the security,
                     //integrity,
                     //and privacy of data. Preventative and defensive measures should be taken where data is generated,
-                    //and protect those private, valuable data from the outset.
+                    //and protect those private, valuable data from the outset.*/}
                 </p>
                 <p className='app-text section-paragraph'>
                     Our research focuses on the following areas:
@@ -58,8 +59,8 @@ export class HomePage extends React.Component {
                 </div>
 
                 <div className="section">
-                	<Title level={3} className='subtitle'>Acknowledgements</Title>
-                	<Paragraph className='app-text section-text'>
+                	<Title level={3} className='ack'>Acknowledgements</Title>
+                	<Paragraph className='app-text section-text ack-text'>
                     This material is based upon work supported by the National Science Foundation under Grant No.
                     1920462. Any opinions, findings, and conclusions or recommendations expressed in this material are
                     those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
